@@ -1,6 +1,3 @@
-Aqui está o `README.md` completo, agora com a documentação do endpoint `/detect-emotion/` e sem mencionar o `/docs` (já que a rota não existe):
-
-````markdown
 # Projeto de Detecção de Emoções em Imagens
 
 Este é um projeto de detecção de emoções em imagens, utilizando FastAPI e um modelo de aprendizado de máquina para análise de emoções a partir de imagens enviadas.
@@ -23,7 +20,6 @@ Clone este repositório para sua máquina local:
 git clone https://github.com/username/repository.git
 cd repository
 ```
-````
 
 ### Passo 2: Criar um Ambiente Virtual (opcional, mas recomendado)
 
