@@ -1,0 +1,67 @@
+# Python
+*.pyc
+*.pyo
+__pycache__
+*.pyd
+*.pdb
+*.swp
+
+# Ambiente Virtual
+src/venv/
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de configuração do Python
+*.db
+*.sqlite3
+
+# Ferramentas de desenvolvimento
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.bak
+*.tmp
+
+# Testes e relatórios de cobertura
+*.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Dependências de pacotes
+*.egg
+*.egg-info
+dist/
+build/
+*.whl
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos específicos de IDEs
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de cache do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos específicos do Jupyter
+.ipynb_checkpoints/
+
+# Configurações do Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Outros
+*.bak
+*.swp
