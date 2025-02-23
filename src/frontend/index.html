@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detectar Emoções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Detectar Emoção na Imagem</h1>
+        <form id="uploadForm">
+            <input type="file" id="imageFile" accept="image/*" required>
+            <button type="submit">Enviar Imagem</button>
+        </form>
+        <div id="result">
+            <h3>Resultado:</h3>
+            <p id="emotionText">Nenhuma emoção detectada</p>
+            <p id="confidenceText"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
