@@ -58,3 +58,22 @@ function getDominantEmotion(emotions) {
 
   return { name: dominantEmotion, score: highestScore };
 }
+
+document
+  .getElementById("imageFile")
+  .addEventListener("change", function (event) {
+    const file = event.target.files[0];
+    const fileName = file.name;
+
+    document.getElementById("fileName").textContent = fileName;
+
+    const imagePreview = document.getElementById("imagePreview");
+    const reader = new FileReader();
+
+    reader.onload = function (e) {
+      imagePreview.src = e.target.result;
+      document.getElementById("fileFeedback").style.display = "block";
+    };
+
+    reader.readAsDataURL(file);
+  });
